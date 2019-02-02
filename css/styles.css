@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Merienda One', cursive;
+  font-size: 50px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 30px;
+  color: #66BFBF;
+  font-family: 'Kurale', serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 8px;
+  width: 10%;
+}
+
+a{
+
+  /* text-decoration: none; */
+}
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px
+}
+
+.cloud_top {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.cloud_bottom {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.middle-container {
+  position: relative;
+  margin: 100 auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+
+.hello_image {
+  width: 200px;
+  height: 200px;
+}
+
+.img_content {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+  }
+
+.img_digital {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  }
+
+
+
+.credits {
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.skill-row{
+  display:block;
+  width:50%;
+  margin: 100px auto ;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.skills{
+
+  padding: 50px;
+}
+.profile{
+  width:50%;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+}
+
+.contact-me{
+
+  padding:50px;
+  line-height: 2;
+}
+
+.butn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Arsenal', sans-serif;
+  color: #EAF6F6;
+  font-size: 22px;
+  background: #66BFBF;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.footer-link{
+text-decoration: none;
+color:#11999E;
+padding:10px;
+
+}
